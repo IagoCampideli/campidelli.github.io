@@ -99,7 +99,7 @@ body {
     filter: grayscale(100%);
     max-height: 100px;
     width: 50%;
-    opacity: 0.6;
+    
 }
 #clientes a.link-cliente:hover img {
     filter: none;

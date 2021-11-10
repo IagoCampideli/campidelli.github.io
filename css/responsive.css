@@ -52,8 +52,11 @@
     }
     #slider {
         background: url(../img/background.svg) no-repeat top left;
-        background-size: 3%; /*deixar sempre do tamano do elemetno*/
+        background-size: contain; /*deixar sempre do tamano do elemetno*/
         
+    }
+    #slider h1 {
+        padding-top: 30px;
     }
     
 }
