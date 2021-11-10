@@ -1,0 +1,49 @@
+h1,h2,h3,h4,h5,h6 {
+    font-weight: 700;
+}
+a {
+    color: var(--primary);
+    text-decoration: none;
+}
+a:hover {
+    color: var(--secondary);
+}
+
+.title {
+    text-transform: uppercase;
+}
+.subtitle {
+    color: var(--medium);
+    font-weight: 400;
+}
+.block {
+    margin-bottom: 240px;
+}
+.button {
+    /* text-transform: lowercase; */
+    font-weight: 400;
+    letter-spacing: 0.8px;
+    padding-left: 1.4rem;
+    padding-right: 1.4rem;
+   
+}
+.button-primary {
+    background: var(--primary);
+    border-color: var(--primary);
+}
+.button-primary:hover {
+    background: var(--primary-dark);
+    border-color: var(--primary-dark);
+}
+.button-primary-outline {
+    color: var(--primary);
+    border-color: var(--primary);
+}
+.button-primary-outline:hover {
+    background-color: var(--primary-dark);
+    border-color: var(--primary-dark);
+}
+.owl-theme .owl-dots .owl-dot.active span, 
+.owl-theme .owl-dots .owl-dot:hover span {
+    background: var(--primary);
+}
